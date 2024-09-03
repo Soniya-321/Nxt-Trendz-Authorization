@@ -1,0 +1,100 @@
+/* Write your CSS code here */
+.nav-bar {
+  padding: 20px;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nxt-trendz-logo-mobile {
+  height: 30px;
+  width: 120px;
+}
+.logout-img {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  outline: none;
+}
+.links-container-1 {
+  background-color: #e6f6ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+.link-item-1 {
+  list-style-type: none;
+  cursor: pointer;
+  outline: none;
+}
+.link-img-1 {
+  height: 20px;
+  width: 20px;
+}
+.links-container {
+  display: none;
+}
+
+.link-item {
+  display: none;
+}
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  color: #000;
+}
+@media screen and (min-width: 768px) {
+  .nxt-trendz-logo-mobile {
+    height: 45px;
+    width: 200px;
+    margin: 10px;
+  }
+  .logout-img {
+    display: none;
+  }
+  .link-img-1 {
+    display: none;
+  }
+  .link-item-1 {
+    display: none;
+  }
+  .links-container-1 {
+    display: none;
+  }
+  .links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .link-item {
+    display: flex;
+    margin: 10px;
+    font-family: roboto;
+    font-size: 23px;
+    cursor: pointer;
+    outline: none;
+  }
+  .logout-btn {
+    background-color: #0b69ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    outline: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nav-bar {
+    padding: 20px 60px;
+  }
+}
